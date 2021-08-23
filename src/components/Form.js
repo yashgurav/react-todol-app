@@ -29,7 +29,6 @@ const Form = () => {
           name="todos"
           className="filter-todo"
           onChange={(e) => {
-            console.log(e.target.value);
             setFilter(e.target.value);
           }}
         >
